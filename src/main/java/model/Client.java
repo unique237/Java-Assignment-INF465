@@ -31,6 +31,14 @@ public class Client {
         
         content2.describe();
         
+        //creation of a Xslx file
+        
+        System.out.println("________ creation of an file: content1.xslx_____");
+        
+        File content3 = new PdfFile("content3");
+        
+        content3.describe();
+        
         //creating a folder
         
         System.out.println("________ creation of a folder:INF465______");
